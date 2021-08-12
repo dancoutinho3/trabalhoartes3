@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body
+{
+    background: #ff33cc;
+}
+.center{
+    position: absolute;
+    top: 0;
+    right: -1000px;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    margin: auto;
+}
+section
+{
+    position: relative;
+    widows: 100%;
+    min-height: 100vh;
+    background: #ff33cc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .content
+{
+    position: relative;
+    padding: 100px 50px 100px 150px;
+    box-sizing: border-box;
+}
+section .content h2
+{
+    color: ba;
+    font-size: 3em;
+    font-weight: 800;
+}
+section .content p
+{
+    color: black;
+    font-size: 0.9em;
+}
+section .content a
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background: #fff;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.95em;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.sci
+{
+    position: absolute;
+    bottom: 75px;
+    left: 20px;
+    display: flex;
+}
+.sci li
+{
+    list-style: none;
+}
+.sci li a
+{
+    text-decoration: none;
+    color:black;
+    margin-right: 30px;
+    font-size: 0.9em;
+}
+.sci li a:hover 
+{
+    color:black;
+}
+.nav
+{
+    position: absolute;
+    top: 75px;
+    left: 20px;
+    display: flex;
+}
+.nav li
+{
+    list-style: none;
+}
+.nav li a
+{
+    text-decoration: none;
+    color:black;
+    margin-right: 30px;
+    font-size: 0.9em;
+}
+.nav li a:hover 
+{
+    color:black;
+}
